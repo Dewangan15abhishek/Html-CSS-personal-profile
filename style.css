@@ -1,0 +1,130 @@
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-family: "playfair display" , Arial, Helvetica, sans-serif;
+}
+
+.all{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.first{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 102px 20px 92px 70px 43px 133px ;
+}
+
+.first > img{
+    padding-left: 50px;
+    height: 460px;
+    width: 350px;
+    grid-row: span 6;
+}
+
+.first > .let{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 110px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.first > .about{
+    font-size: 92px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.first > .name{
+    font-size: 43px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.second{
+    height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second > .hello{
+    font-size: 43px;
+    text-transform: capitalize;
+}
+
+.second > .para{
+    width: 75%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.third{
+    height: 500px;
+    margin-bottom: 100px;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.third > .skills{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.third > h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.third > .para{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.c{
+    font-weight: bold;
+}
+
+.fourth{
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 4fr;
+}
+
+.fourth > h1{
+    font-size: 50px;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+.fourth > .block{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
